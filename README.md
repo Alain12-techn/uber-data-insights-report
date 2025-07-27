@@ -3,7 +3,7 @@
 **Course:** Introduction to Big Data Analytics (INSY 8413)  
 **Instructor:** Eric Maniraguha  
 **Assignment Date:** 20 July 2025  
-**Groups:** A, B & E  
+**Groups:** E  
 **Tools Used:** Python (Jupyter), Power BI Desktop  
 
 **Name:**  Kwizera Alain
