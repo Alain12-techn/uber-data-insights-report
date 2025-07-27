@@ -6,8 +6,10 @@
 **Assignment Date:** 20 July 2025  
 **Groups:** A, B & E  
 **Tools Used:** Python (Jupyter), Power BI Desktop
-name:
-ID:
+
+**name:**
+
+**ID:**
 
 
 
