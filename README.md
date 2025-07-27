@@ -70,6 +70,7 @@ df['trip_distance_km'] = haversine_distance(
 ```
 
 ---
+<img width="1363" height="693" alt="dashboard final" src="https://github.com/user-attachments/assets/5a3978db-93c7-44bd-a6cc-e7dd63a79db2" />
 
 ## 🔍 Analysis
 
