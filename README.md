@@ -6,8 +6,8 @@
 **Groups:** A, B & E  
 **Tools Used:** Python (Jupyter), Power BI Desktop  
 
-**Name:**  
-**ID:**  
+**Name:**  Kwizera Alain
+**ID:**  26584
 
 ---
 
