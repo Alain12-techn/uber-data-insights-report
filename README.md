@@ -1,26 +1,22 @@
 # 🚖 Uber Fare Analysis Project
 
-
 **Course:** Introduction to Big Data Analytics (INSY 8413)  
 **Instructor:** Eric Maniraguha  
 **Assignment Date:** 20 July 2025  
 **Groups:** A, B & E  
-**Tools Used:** Python (Jupyter), Power BI Desktop
+**Tools Used:** Python (Jupyter), Power BI Desktop  
 
-**name:**
+**Name:**  
+**ID:**  
 
-**ID:**
-
-
+---
 
 ## 📌 Introduction
 This project presents an analytical exploration of the Uber Fares Dataset using Python and Power BI. The goal is to extract meaningful insights into fare behavior, time patterns, ride frequency, and geographic distribution. The final deliverables include a cleaned dataset, a full Power BI dashboard, and a comprehensive analytical report. 
 
-
-
 ---
 
-## 🎯 Objective
+## 🌟 Objective
 To perform data cleaning, transformation, feature engineering, and exploratory data analysis on Uber ride data, then build an interactive Power BI dashboard that highlights trends in fare amounts, trip durations, peak ride hours, and geographic pickup patterns.
 
 ---
@@ -111,7 +107,29 @@ sns.boxplot(x=df['fare_amount'])
 
 ---
 
+## 📊 DAX Measures Used in Power BI
 
+### 1. Ride Count Measure
+```DAX
+Ride Count = COUNT(uber_cleaned_for_powerbi[key])
+```
+Used to count number of rides instead of summing fare values.
+
+### 2. Hour, Day, Month Columns
+```DAX
+Hour = HOUR(uber_cleaned_for_powerbi[pickup_datetime])
+Day = DAY(uber_cleaned_for_powerbi[pickup_datetime])
+Month = FORMAT(uber_cleaned_for_powerbi[pickup_datetime], "MMMM")
+MonthNum = MONTH(uber_cleaned_for_powerbi[pickup_datetime])
+```
+Sort "Month" by "MonthNum" for correct ordering in visuals.
+
+### 3. Day of Week Column
+```DAX
+Weekday = FORMAT(uber_cleaned_for_powerbi[pickup_datetime], "dddd")
+WeekdayNum = WEEKDAY(uber_cleaned_for_powerbi[pickup_datetime], 2)
+```
+Sort "Weekday" by "WeekdayNum" to get Monday through Sunday order.
 
 ---
 
