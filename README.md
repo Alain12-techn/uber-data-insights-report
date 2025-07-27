@@ -1,13 +1,20 @@
 # 🚖 Uber Fare Analysis Project
 
-## 📌 Introduction
-This project presents an analytical exploration of the Uber Fares Dataset using Python and Power BI. The goal is to extract meaningful insights into fare behavior, time patterns, ride frequency, and geographic distribution. The final deliverables include a cleaned dataset, a full Power BI dashboard, and a comprehensive analytical report. 
 
 **Course:** Introduction to Big Data Analytics (INSY 8413)  
 **Instructor:** Eric Maniraguha  
 **Assignment Date:** 20 July 2025  
 **Groups:** A, B & E  
 **Tools Used:** Python (Jupyter), Power BI Desktop
+name:
+ID:
+
+
+
+## 📌 Introduction
+This project presents an analytical exploration of the Uber Fares Dataset using Python and Power BI. The goal is to extract meaningful insights into fare behavior, time patterns, ride frequency, and geographic distribution. The final deliverables include a cleaned dataset, a full Power BI dashboard, and a comprehensive analytical report. 
+
+
 
 ---
 
@@ -102,13 +109,7 @@ sns.boxplot(x=df['fare_amount'])
 
 ---
 
-## 📈 Results
-- Cleaned and enhanced dataset ready for Power BI
-- Key insights extracted:
-  - Peak hours and weekdays identified
-  - Seasonal trends visualized
-  - Outliers and fare distribution explored
-  - Trip distance estimated using coordinates
+
 
 ---
 
@@ -117,11 +118,7 @@ This project successfully transformed raw Uber ride data into valuable business 
 
 ---
 
-## 💡 Recommendations
-1. Optimize driver availability during peak hours (7–9 AM, 5–7 PM)
-2. Monitor outlier fare cases for fraud or surge pricing validation
-3. Expand ride operations in high-frequency pickup zones
-4. Use seasonal insights to plan marketing campaigns and promotions
+
 
 ---
 
@@ -137,5 +134,4 @@ This project successfully transformed raw Uber ride data into valuable business 
 
 ## 🔗 Submission
 - GitHub Repo: https://github.com/Alain12-techn/uber-data-insights-report
-- Instructor: eric.maniraguha@auca.ac.rw
-- Deadline: Friday 25 July 2025, 5:00 PM (before Sabbath)
+
